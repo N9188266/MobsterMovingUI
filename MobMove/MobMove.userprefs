@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{4B99F357-1A2E-46BE-A852-F72DB9C71334}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Droid/MainActivity.cs" Line="24" Column="60" />
+      <File FileName="Droid/Resources/SplashActivity.cs" Line="8" Column="23" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="28" Column="10" />
+      <File FileName="MobMove/MobMovePage.xaml" Line="8" Column="1" />
+      <File FileName="MobMove/MobMovePage.xaml.cs" Line="6" Column="6" />
+      <File FileName="MobMove/MyTabbedPage.cs" Line="12" Column="6" />
+      <File FileName="Droid/Resources/color/icon_tab.xml" Line="5" Column="12" />
+      <File FileName="Droid/CustomTabbedPageRenderer.cs" Line="50" Column="26" />
+      <File FileName="MobMove/Boxes.xaml" Line="46" Column="1" />
+      <File FileName="MobMove/Boxes.xaml.cs" Line="13" Column="35" />
+      <File FileName="MobMove/ItemsPage2.xaml" Line="43" Column="1" />
+      <File FileName="MobMove/ItemsPage2.xaml.cs" Line="1" Column="1" />
+      <File FileName="MobMove/UtilityPage.xaml" Line="23" Column="1" />
+      <File FileName="MobMove/UtilityPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MobMove/InfoPage.xaml" Line="7" Column="1" />
+      <File FileName="MobMove/InfoPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MobMove/obj/Debug/MobMove.MobMovePage.xaml.g.cs" Line="19" Column="1" />
+      <File FileName="MobMove/App.xaml" Line="7" Column="1" />
+      <File FileName="MobMove/Box.cs" Line="11" Column="5" />
+      <File FileName="MobMove/BoxItem.cs" Line="13" Column="5" />
+      <File FileName="MobMove/ItemDetailPage2.xaml" Line="33" Column="32" />
+      <File FileName="MobMove/ItemDetailPage2.xaml.cs" Line="15" Column="9" />
+      <File FileName="MobMove/App.xaml.cs" Line="9" Column="35" />
+      <File FileName="MobMove/ItemsPage.cs" Line="1" Column="1" />
+      <File FileName="MobMove/ItemsPage.xaml" Line="42" Column="1" />
+      <File FileName="MobMove/ItemsPage.xaml.cs" Line="33" Column="10" />
+      <File FileName="MobMove/ItemDetailPage.xaml" Line="64" Column="1" />
+      <File FileName="MobMove/ItemDetailPage.xaml.cs" Line="31" Column="10" />
+      <File FileName="Droid/packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MobMove.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

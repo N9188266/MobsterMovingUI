@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobMove", "MobMove\MobMove.csproj", "{D1698E35-1AC2-466D-901A-51C3D1A8708E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobMove.Droid", "Droid\MobMove.Droid.csproj", "{4B99F357-1A2E-46BE-A852-F72DB9C71334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1698E35-1AC2-466D-901A-51C3D1A8708E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1698E35-1AC2-466D-901A-51C3D1A8708E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1698E35-1AC2-466D-901A-51C3D1A8708E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1698E35-1AC2-466D-901A-51C3D1A8708E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B99F357-1A2E-46BE-A852-F72DB9C71334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B99F357-1A2E-46BE-A852-F72DB9C71334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B99F357-1A2E-46BE-A852-F72DB9C71334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B99F357-1A2E-46BE-A852-F72DB9C71334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

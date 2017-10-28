@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" x:Class="MobMove.Boxes" Title="Boxes" Icon="MobMenuCofT" >
+	<ContentPage.Content>
+        <Grid >
+            <Image Source="MobBoxScrn" Aspect="Fill" HorizontalOptions="FillAndExpand" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="95" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="0" >
+                    <Button x:Name="DeleteABox" Clicked="DeleteBoxButton_Clicked" ClassId="DeleteBox" WidthRequest="60" HeightRequest="50" FontSize="36" Text="" BorderColor="Transparent" BackgroundColor="Transparent" VerticalOptions="Start"/>
+                    <Entry Placeholder="Box Search" PlaceholderColor="#BBBBBB" FontSize="18" TextColor="Silver" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+                    <Button x:Name="AddABox" Clicked="AddBoxButton_Clicked" ClassId="AddBox" WidthRequest="60" HeightRequest="50" FontSize="36" Text="" BorderColor="Transparent" BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="End"/>
+                </StackLayout>
+                <controls:CarouselViewControl Grid.Row="1" Orientation="Horizontal" ItemsSource="{Binding myBoxes}" x:Name="CarouselBoxes">
+                    <controls:CarouselViewControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="12"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="12" />
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0" TextColor="White" Text="{Binding Name}" FontSize="9" HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Image Grid.Row="1" Aspect="AspectFill" Source="BoxPic"/>
+                                <Label Grid.Row="2" TextColor="White" Text="Num Items" FontSize="9" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Grid>
+                        </DataTemplate>
+                    </controls:CarouselViewControl.ItemTemplate>
+                </controls:CarouselViewControl>
+                <Label x:Name="BoxCountLabel" Grid.Row="2" Text="0 of 0" TextColor="Silver" FontSize="24" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <!--ListView of items to be added here-->
+                <Image Grid.Row="4" Source="ButtonAddItem" HorizontalOptions="Center" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AddItemButton_Clicked" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
