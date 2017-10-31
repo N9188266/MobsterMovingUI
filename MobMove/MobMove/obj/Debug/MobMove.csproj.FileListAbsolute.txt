@@ -33,6 +33,7 @@
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.csprojResolveAssemblyReference.cache
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.csproj.CoreCompileInputs.cache
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.App.xaml.g.cs
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.MobMovePage.xaml.g.cs
@@ -43,3 +44,4 @@
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.ItemDetailPage.xaml.g.cs
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.dll
 /Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.pdb
+/Users/rodneyz/Projects/MobApp2/MobMove/MobMove/obj/Debug/MobMove.PrintPage.xaml.g.cs

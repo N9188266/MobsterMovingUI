@@ -12,10 +12,10 @@
                     <ColumnDefinition Width="*" />  
                     <ColumnDefinition Width="*" />  
                 </Grid.ColumnDefinitions>  
-                <Button ClassId="SyncButn" Grid.Row="0" Grid.Column="0" FontSize="36" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
-                <Button ClassId="ScanButn" Grid.Row="1" Grid.Column="0" FontSize="36" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
-                <Button ClassId="LabelButn" Grid.Row="0" Grid.Column="1" FontSize="36" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
-                <Button ClassId="ExportButn" Grid.Row="1" Grid.Column="1" FontSize="36" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
+                <Button ClassId="SyncButn" Grid.Row="0" Grid.Column="0" FontSize="36" Clicked="NotImplimented_Clicked" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
+                <Button ClassId="ScanButn" Grid.Row="0" Grid.Column="1" FontSize="36" Clicked="NotImplimented_Clicked" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
+                <Button ClassId="LabelButn" Grid.Row="1" Grid.Column="0" FontSize="36" Clicked="GoPrintPage" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
+                <Button ClassId="ExportButn" Grid.Row="1" Grid.Column="1" FontSize="36" Clicked="NotImplimented_Clicked" Text="" BorderColor="Transparent" BackgroundColor="Transparent" />
             </Grid>
         </Grid>
 	</ContentPage.Content>
