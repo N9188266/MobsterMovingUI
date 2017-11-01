@@ -162,6 +162,8 @@
     <AndroidResource Include="Resources\drawable\IconTick.png" />
     <AndroidResource Include="Resources\drawable\MobItemScrn.png" />
     <AndroidResource Include="Resources\drawable\MugShot.png" />
+    <AndroidResource Include="Resources\drawable\IconTickNo.png" />
+    <AndroidResource Include="Resources\drawable\IconTickYes.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\color\" />

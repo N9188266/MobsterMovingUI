@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobMove.InfoPage" Title="Info" Icon="MobMenuInfoT">
 	<ContentPage.Content>
-        <Image Source="MobInfoCart" Aspect="AspectFill"/>
+        <Grid>
+            <Image Source="MobInfoCart" Aspect="AspectFill"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="210"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Made By:" TextColor="Silver" FontSize="24" FontAttributes="Bold" HorizontalOptions="End"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="Mitchell - Programming" TextColor="White" FontSize="18" VerticalOptions="End"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="George - Programming" TextColor="White" FontSize="18" VerticalOptions="Center"/>
+                <Label Grid.Row="2" Grid.Column="1" Text="Rodney - Art and Design" TextColor="White" FontSize="18" VerticalOptions="Center"/>
+                <Label Grid.Row="3" Grid.Column="1" Text="William - Documentation" TextColor="White" FontSize="18" VerticalOptions="Center"/>
+            </Grid>
+        </Grid>
 	</ContentPage.Content>
 </ContentPage>

@@ -20,6 +20,7 @@ namespace MobMove
         bool rooms = false;
         bool qRCode = false;
 
+
         //Method to update page details to correspond to the Current Box on the carousel
         private void UpdateCurrentBox(object sender, EventArgs e)
         {
@@ -32,29 +33,70 @@ namespace MobMove
         }
 
 
+        //***TickToggles***
+
         private void ItemList_Clicked(object sender, EventArgs e)
         {
-            ListTick.IsVisible = !list;
+            var imageSender = (Image)sender;
+
+            if (list)
+            {
+                imageSender.Source = "IconTickNo";
+            }
+            else
+            {
+                imageSender.Source = "IconTickYes";
+            }
             list = !list; 
         }
 
         private void BoxNumbers_Clicked(object sender, EventArgs e)
         {
-            BoxesTick.IsVisible = !boxNums;
+            var imageSender = (Image)sender;
+
+            if (boxNums)
+            {
+                imageSender.Source = "IconTickNo";
+            }
+            else
+            {
+                imageSender.Source = "IconTickYes";
+            }
             boxNums = !boxNums;
         }
 
         private void RoomType_Clicked(object sender, EventArgs e)
         {
-            RoomTick.IsVisible = !rooms;
+            var imageSender = (Image)sender;
+
+            if (rooms)
+            {
+                imageSender.Source = "IconTickNo";
+            }
+            else
+            {
+                imageSender.Source = "IconTickYes";
+            }
             rooms = !rooms;
         }
 
         private void QRCode_Clicked(object sender, EventArgs e)
         {
-            QRTick.IsVisible = !qRCode;
+            var imageSender = (Image)sender;
+
+            if (qRCode)
+            {
+                imageSender.Source = "IconTickNo";
+            }
+            else
+            {
+                imageSender.Source = "IconTickYes";
+            }
             qRCode = !qRCode;
         }
+
+
+        //***Print Buttons***
 
         private void UpdateAllButton_Clicked(object sender, EventArgs e)
         {

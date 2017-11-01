@@ -138,3 +138,5 @@
 /Users/rodneyz/Projects/MobApp2/MobMove/Droid/obj/Debug/res/drawable/mugshot.png
 /Users/rodneyz/Projects/MobApp2/MobMove/Droid/obj/Debug/R.cs.flag
 /Users/rodneyz/Projects/MobApp2/MobMove/Droid/obj/Debug/uploadflags.txt
+/Users/rodneyz/Projects/MobApp2/MobMove/Droid/obj/Debug/res/drawable/icontickno.png
+/Users/rodneyz/Projects/MobApp2/MobMove/Droid/obj/Debug/res/drawable/icontickyes.png
